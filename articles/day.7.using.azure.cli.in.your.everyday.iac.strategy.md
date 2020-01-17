@@ -34,13 +34,6 @@ Advantages you ask? Azure CLI offers several. Azure CLI is easy to maintain beca
 
 <br />
 
-Azure Pipelines also includes a native Bash task (shown in Figure 2) that makes running reliable Azure CLI scripts not only achievable, but relatively easy. You can call a Shell script containing Azure CLI from your repo, passing parameter values as necessary, or select the the inline option and type Azure CLI snippets directly into the window provided.
-
-![AZDO Bash Task](/images/day7/azdo-bash-task.png)
-**Figure 2**. Bash Task Azure Release Pipeline
-
-<br />
-
 In fact, what you see in Figure 1 are the first two stages of an eight stage release pipeline, which deploys a complex Azure Kubernetes environment, and is built entirely on Azure CLI using deployment stages and the Bash task! This pipeline is idempotent, declarative (through the staged approach), and *very* reliable.
 
 ## The Azure CLI Tools Extension for VS Code
