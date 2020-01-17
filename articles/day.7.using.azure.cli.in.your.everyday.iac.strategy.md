@@ -14,7 +14,6 @@ In this installment:
 
 [Azure CLI is Idempotent!](#azure-cli-is-idempotent)<br />
 [But Azure CLI is not declarative!](#but-azure-cli-is-not-declarative)<br />
-[TIP: Do-it-Yourself Declarative Deployment for Azure CLI](#tip-do-it-yourself-declarative-deployment-for-azure-cli)<br />
 [Getting Help in Azure CLI](#getting-help-in-azure-cli)<br />
 [The Azure CLI Tools Extension for VS Code](#the-azure-cli-tools-extension-for-vs-code)<br />
 [Don't know Shell scripting?](#don't-know-shell-scripting)<br />
