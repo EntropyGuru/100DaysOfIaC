@@ -32,17 +32,6 @@ One of the detractors against the argument for is that the Azure CLI is not **de
 
 Advantages you ask? Azure CLI offers several. Azure CLI is easy to maintain because you explicitly define the deployment. It easy to read, and we can easily implement logging that makes troubleshooting quite simple (which is so beautiful it deserves it's own installment). And with Azure CLI, it's easier to take the output from one resource and use it in another in your release pipeline.
 
-## TIP: Do-it-Yourself Declarative Deployment for Azure CLI
-
-Here's a great way to address declarative deployment sequence in deploying Infrastructure-as-Code with Azure Pipelines, which is part of Azure DevOps.
-
-> **NOTE:** Azure Pipelines is a topic we'll cover at greater depth in the near future.
-
-In a release pipeline, you can specify deployment stages (the boxes in Figure 1), and establish **pre-deployment conditions**. Pre-deployment conditions can include only allowing the next stage to deploy if the previous stage is successful, enabling you to reliably control the deployment sequence!
-
-![Azure Release Pipeline](/images/day7/azdo-release-pipeline.png)
-**Figure 1**. Multi-Stage Azure Release Pipeline
-
 <br />
 
 Azure Pipelines also includes a native Bash task (shown in Figure 2) that makes running reliable Azure CLI scripts not only achievable, but relatively easy. You can call a Shell script containing Azure CLI from your repo, passing parameter values as necessary, or select the the inline option and type Azure CLI snippets directly into the window provided.
