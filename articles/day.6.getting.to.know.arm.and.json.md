@@ -142,6 +142,9 @@ If we strip an ARM template down to it's most essential elements, a bare bones A
 There are four optional, but useful elements we can tap into in ARM templates not shown above: **outputs**, **dependsOn**, **protectedsettings**, and **functions**. We will discuss these in "JSON and ARM - Part 2" sometime in the near future.
 
 <br />
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-syntax
+
+<br />
 
 ## Homework
 
