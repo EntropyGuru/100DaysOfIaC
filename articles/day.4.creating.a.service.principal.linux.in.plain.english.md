@@ -46,6 +46,11 @@ You can echo it out using the following command.
 ```bash
 echo $AZURE_SP | jq .password | tr -d '"'
 ```
+## Optional 
+
+### Create Azure Key Vault
+
+https://docs.microsoft.com/en-us/azure/key-vault/
 
 You can use the following syntax below to store the Password in a variable and then add it to an existing Azure Key Vault.
 
