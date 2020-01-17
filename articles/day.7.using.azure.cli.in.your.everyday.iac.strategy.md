@@ -55,16 +55,6 @@ Azure Pipelines also includes a native Bash task (shown in Figure 2) that makes 
 
 In fact, what you see in Figure 1 are the first two stages of an eight stage release pipeline, which deploys a complex Azure Kubernetes environment, and is built entirely on Azure CLI using deployment stages and the Bash task! This pipeline is idempotent, declarative (through the staged approach), and *very* reliable.
 
-# Getting Help in Azure CLI 
-
-With Azure CLI, I can type as much of a command and ask for help anytime, simply by using the `--help` command. For example:
-
-`az --help`
-
-`az vm --help`
-
-Best of all, unlike PowerShell, Azure CLI NEVER asks you if you want to download help content so you can get help, it just gives you help! Brilliant!
-
 ## The Azure CLI Tools Extension for VS Code
 
 The Azure CLI Tools extension for VS Code that elevates the scripting experience in VS Code. You can add this extension directly within VS Code or from the Visual Studio Marketplace [HERE](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azurecli)
