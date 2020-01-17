@@ -2,6 +2,8 @@
 
 In the previous article **[Day 1 - Getting Organized (Linux)](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.1.getting.organized.md)** we covered how to install all of your tools on a workstation in an automated way so that if you ever had to rebuild the workstation, you could either run a simple all-in-one script or copy/paste a few lines of code and be up and running. Today we'll be doing the same for a workstation running Windows 10.
 
+## OR use WSL - Windows Subsystem for Linux - and **[Day 1 - Getting Organized (Linux)]
+
 Below are a list of tools that will be used throughout this series on Windows.
 
 * Chocolatey
