@@ -1,4 +1,4 @@
-# Day 10 - Building Blocks of CICD Strategy for IaC in Azure DevOps
+# Day 11 - Building Blocks of CICD Strategy for IaC in Azure DevOps
 
 In the world of DevOps, CI/CD, or continuous integration (CI) and continuous delivery (CD), can be described most simply as the process of automating build, testing, and deployment of applications and the virtual infrastructure that supports it (the Infrastructure-as-Code).
 

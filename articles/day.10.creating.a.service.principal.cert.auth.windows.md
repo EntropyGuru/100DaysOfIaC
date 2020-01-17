@@ -1,4 +1,4 @@
-# Day 11 - Creating an Azure Service Principal that uses Certificate Authentication (Windows Edition)
+# Day 10 - Creating an Azure Service Principal that uses Certificate Authentication (Windows Edition)
 
 In our previous article **[Day 9](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.9.creating.a.service.principal.cert.auth.linux.md)** we created a Service Principal with Certificate Authentication in Linux. Today we are covering how to create a Service Principal that uses a PEM Certificate for authentication using the Azure CLI on Windows.
 
