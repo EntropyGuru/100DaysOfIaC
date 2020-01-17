@@ -1,4 +1,4 @@
-# Day 6 – Creating a Service Principal in plain English (Windows Edition)
+# Day 5 – Creating a Service Principal in plain English (Windows Edition)
 
 When using Azure, there are several reasons why you may be required to create a Service Principal. Such as
 
@@ -46,6 +46,12 @@ You can view it out using the following command.
 ```powershell
 ($Azure_SP | ConvertFrom-Json).password
 ```
+
+## Optional
+
+### Create Azure Key Vault
+
+https://docs.microsoft.com/en-us/azure/key-vault/
 
 You can use the following syntax below to store the Password in a variable and then add it to an existing Azure Key Vault.
 
