@@ -195,3 +195,5 @@ Azuredeploy.parameters.json file
   }
 }
 ```
+
+https://github.com/Azure/azure-quickstart-templates
