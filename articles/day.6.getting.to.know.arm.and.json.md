@@ -149,3 +149,49 @@ https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template
 ## Homework
 
 If you have not mastered ARM, or find templates confusing, revisit the JSON concepts above until you recognize them on sight, and have committed them to memory. In Part 2, we'll dig into more advanced components, setting the stage for more powerful deployment examples later in the series.
+
+Azuredeploy.json file
+```JSON
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "username": {
+      "type":"string"
+    },
+    "password": {
+      "type": "securestring"
+    }
+
+  },
+  "variables": {},
+  "resources": [],
+  "outputs": {
+    "username": {
+      "type": "string",
+      "value": "[parameters('username')]"
+    },
+    "password": {
+      "type": "securestring",
+      "value": "[parameters('password')]"
+    }
+  }
+}
+
+```
+Azuredeploy.parameters.json file
+
+```JSON
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "username": {
+      "value": "WSB User"
+    },
+    "password": {
+      "value": "SecurePassword!"
+    }
+  }
+}
+```
