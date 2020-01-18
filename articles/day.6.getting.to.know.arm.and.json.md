@@ -199,3 +199,7 @@ Azuredeploy.parameters.json file
 https://github.com/Azure/azure-quickstart-templates
 <br/>
 https://github.com/Azure/azure-quickstart-templates/tree/master/101-storage-account-create
+
+## Azure Resource Manager Templates Reference
+
+https://docs.microsoft.com/en-us/azure/templates/
