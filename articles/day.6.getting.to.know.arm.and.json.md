@@ -197,3 +197,4 @@ Azuredeploy.parameters.json file
 ```
 
 https://github.com/Azure/azure-quickstart-templates
+https://github.com/Azure/azure-quickstart-templates/tree/master/101-storage-account-create
