@@ -44,3 +44,6 @@ Bottom line, even though Terraform is declarative and idempotent, your team has 
 ## Conclusion
 
 If your organization is a user of multiple cloud platforms, Terraform may be a great fit. If your org is new to Azure and does not have a team with strong skills in any native Microsoft deployment options, this might be the perfect time to consider Terraform adoption. However, if you are 'all in' for Azure, and working with bleeding edge features, you may want to think twice before investing heavily in Terraform as a deployment strategy.
+
+<br />
+https://docs.microsoft.com/en-us/azure/virtual-machines/linux/terraform-create-complete-vm
