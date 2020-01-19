@@ -24,8 +24,8 @@ There are well over 50 helper functions you can use in your ARM templates, that 
 
 Most commonly used helper functions are probably these four, all of which are demonstrated in the template accompanying this article
 
-- **resourceId**. returns an object that represents the current resource group.
-- **resourceGroup**. returns the unique identifier of a resource. You use this function when the resource name is ambiguous or not provisioned within the same template
+- **resourceId**. returns the unique identifier of a resource. You use this function when the resource name is ambiguous or not provisioned within the same template
+- **resourceGroup**. returns an object that represents the current resource group.
 - **subscription**. returns details about the subscription for the current deployment.
 - **concat**. combines multiple string values and returns the concatenated string, or combines multiple arrays and returns the concatenated array
 
